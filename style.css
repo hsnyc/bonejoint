@@ -15,3 +15,37 @@ Copyright 2016 Tom Usborne
 GeneratePress is distributed under the terms of the GNU GPL
 
 */
+
+.make-appointment-btn {
+    margin: 0 40px;
+    background: #92b0c4;
+    text-transform: uppercase;
+}
+
+.home-side-widget h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: #54595f;
+    font-family: roboto, sans-serif;
+}
+
+.home-side-widget li a {
+    color: #89bbe5;
+}
+
+.home-side-widget li a:hover {
+    text-decoration: underline;
+}
+
+.call-btn {
+    background-color: transparent;
+    color: #222;
+    font-weight: 700;
+    border: 2px solid #2A3949;
+    margin-top: 40px;
+}
+
+button.call-btn:hover {
+    color: #6EC1E4;
+}
