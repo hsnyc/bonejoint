@@ -15,6 +15,14 @@ Copyright 2016 Tom Usborne
 GeneratePress is distributed under the terms of the GNU GPL
 
 */
+/* heading styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+
+.p1 {
+    margin-bottom: 1.5em;
+}
 
 .make-appointment-btn {
     margin: 0 40px;
@@ -48,4 +56,99 @@ GeneratePress is distributed under the terms of the GNU GPL
 
 button.call-btn:hover {
     color: #6EC1E4;
+}
+
+/* Appointment Form styles */
+.form-heading {
+    padding: 20px 0 2px 20px;
+    color: #fff;
+    background-color: #92b0c4;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#CF5837528ab30c5_1 .col-sm-4 {
+    padding: 20px 40px;
+}
+
+.cf-toggle-switch a.btn-success {
+     color: #fff;
+     background-color: #92b0c4;
+     border-color: #ACACAC;
+}
+
+.cf-toggle-switch a.btn-default {
+    color: #000;
+    background-color: #fff;
+}
+
+.cf-toggle-switch a.btn-success:hover {
+    color: #fff;
+    background-color: #749AB4;
+    border-color: #ACACAC;
+}
+
+input#fld_2668148_1 {
+    width: 200px;
+    background-color: #92b0c4;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input#fld_2668148_1:hover {
+    background-color: #749AB4;
+}
+
+/* adding icon to anchor tags with pdf links */
+ul > li.pdf {
+    margin-left: -2em;
+}
+
+li.pdf {
+    padding: 10px 0px;
+    list-style: none;
+}
+
+a[href $='.pdf'] {
+   padding-left: 30px;
+   background: transparent url(//bonejoint/wp-content/themes/bonejoint/images/icon-pdf.png) no-repeat center left;
+   background-size: 20px 20px;
+}
+
+/* Footer styles */
+
+.footer-left {
+    padding-left: 20px;
+    float: left;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .make-appointment-btn {
+        margin: 20px 40px;
+        text-align: center;
+    }
+
+    .call-btn {
+        margin-top: 0px;
+    }
+
+    .footer-left,
+    .footer-right {
+        float: none;
+    }
+
+    .footer-left {
+        margin-bottom: 20px;
+    }
+
+    .dropdown-menu-toggle:before {
+        font-size: 2em;
+        line-height: 2em;
+    }
 }
